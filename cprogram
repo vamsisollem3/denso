@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+int x,p,cost=0,cost2,cost3;
+scanf("%d%d",&x,&p);
+while(x)
+{
+cost=cost+x;
+cost2=(p/100*x);
+cost3=x-cost2;
+x=cost3;
+}
+printf("%d",cost);
+return 0;
+}
